@@ -2,34 +2,34 @@
 
 int main(){
 	
-    float ChiSoMoi, ChiSoCu;
+    float chiSoMoi, chiSoCu;
 printf("moi nhap chi so cu: ");
-scanf("%d", &ChiSoCu);
+scanf("%d", &chiSoCu);
 
 printf("moi nhap chi so moi: ");
-scanf("%d", &ChiSoMoi);
+scanf("%d", &chiSoMoi);
 
-int SoDien = ChiSoMoi-ChiSoCu;
+int soDien = chiSoMoi-chiSoCu;
 
-float TienDien;
+float tienDien;
 
- if (ChiSoCu>ChiSoMoi){
+ if (chiSoCu>chiSoMoi){
  	printf("chi so moi phai lon hon chi so cu");
- }else if (0<=SoDien && SoDien<50){
- 	TienDien=SoDien*10.000;
- 	printf("Tien dien trong thang la: %.3f VND",TienDien);
- }else if (50<=SoDien && SoDien<100){
- 	TienDien=SoDien*15.000;
- 	printf("Tien dien trong thang la: %.3f VND",TienDien);
- }else if (100<=SoDien && SoDien<150){
- 	TienDien=SoDien*20.000;
- 	printf("Tien dien trong thang la: %.3f VND",TienDien);
- }else if (150<=SoDien && SoDien<200){
- 	TienDien=SoDien*25.000;
- 	printf("Tien dien trong thang la: %.3f VND",TienDien);
+ }else if (0<=soDien && soDien<50){
+ 	tienDien=soDien*10.000;
+ 	printf("Tien dien trong thang la: %.3f VND",tienDien);
+ }else if (50<=soDien && soDien<100){
+ 	tienDien=soDien*15.000;
+ 	printf("Tien dien trong thang la: %.3f VND",tienDien);
+ }else if (100<=soDien && soDien<150){
+ 	tienDien=soDien*20.000;
+ 	printf("Tien dien trong thang la: %.3f VND",tienDien);
+ }else if (150<=soDien && soDien<200){
+ 	tienDien=soDien*25.000;
+ 	printf("Tien dien trong thang la: %.3f VND",tienDien);
  }else{
- 	TienDien=SoDien*30.000;
- 	printf("Tien dien trong thang la: %.3f VND",TienDien);
+ 	tienDien=soDien*30.000;
+ 	printf("Tien dien trong thang la: %.3f VND",tienDien);
  
  }
 
