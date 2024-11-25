@@ -11,7 +11,7 @@ int main(){
 	printf("moi nhap year: ");
 	scanf("%d", &year);
 	
-	if (day<1 || day>31 || month<1 || month >12 || month==2&&day>29 || month==4&&day>30 || month==6&&day>30 || month==9&&day>30 || month==11&&day>30 ){
+	if (day<1 || day>31 || month<1 || month >12 || month==2&&day>28 ||month==2 &&year%4==0&& year%100==0 && year%400==0&& day>29 || month==4&&day>30 || month==6&&day>30 || month==9&&day>30 || month==11&&day>30  ){
 		printf("khong hop le");
 	}else{printf("%d/%d/%d hop le", day,month,year);
 	} 
